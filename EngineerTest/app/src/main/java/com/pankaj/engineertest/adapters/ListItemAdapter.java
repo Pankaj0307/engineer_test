@@ -63,7 +63,7 @@ public class ListItemAdapter extends RecyclerView.Adapter<ListItemAdapter.ViewHo
             }
         });
 
-        holder.switchItem.setOnClickListener(new View.OnClickListener() {
+        holder.ll_main.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 switchToggle(holder, position);

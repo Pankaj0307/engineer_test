@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity implements OnItemtClickedInt
             @Override
             public void onRefresh() {
                 if (api_in_progress == 0) {
-                    checkCount(false);
+//                    checkCount(false);
                     swipeRefreshLayout.setRefreshing(false);
                     recyclerView.setVisibility(View.GONE);
                     dataViewModel.clearModelData();
